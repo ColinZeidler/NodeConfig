@@ -1,0 +1,39 @@
+.node {
+	fill: #fff;
+	stroke: #000;
+	stroke-width: 1.5px;
+}
+
+.node text {
+	fill: #000;
+	stroke-width: 0;
+}
+
+.node .selected {
+	fill: #960c0c;
+}
+
+.link {
+	stroke: #000;
+	stroke-width: 1.5px;
+}
+
+.logform {
+	background-color: #e2e2e2;
+	display: inline-block;
+}
+
+form {
+	padding: 5px;
+}
+
+body {
+	margin:auto;
+	margin-bottom: 25px;
+	width:50%;
+}
+
+svg {
+	background-color: #aeb0b2;
+	width: 100%;
+}

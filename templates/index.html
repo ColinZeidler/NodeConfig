@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<title>BBHN node config</title>
+		<link rel="stylesheet" href="/static/app.css" type="text/css">
+		<script type="text/javascript" src="/static/d3.v4.js"></script>
+		<script type="text/javascript" src="/static/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="/static/app.js"></script>
+	</head>
+	<body>
+		<H1>Node Configuration Tool</H1>
+		<svg width=900 height=500></svg>
+		<p>Select the nodes you want to configure</p>
+		<div id="nodeLogins"></div>
+		<form id="options">
+			DNS_1:<br><input name="dns1" type="text" value='8.8.8.8'><br>
+			DNS_2:<br><input name="dns2" type="text" value='8.8.4.4'><br>
+			NTP Server:<br><input name="ntp" type="text" value='ntp.ubuntu.com'><br>
+			SSID:<br><input name="ssid" type="text" value='BroadbandHamnet-20-v3'><br>
+			Channel:<br><input name="channel" type="number" min="1" max="11" value='1'><br>
+			Enable OLSRD secure: <input id='os_check' type="checkbox" name="secure_enable"><br>
+			OLSRD Secure Key:<br><input id='os_input' type="text" name="secure_key" value='FFFFFFFFFFFFFFFF' disabled>
+		</form><br>
+		<button id="submit">Submit</button>
+	</body>
+</html>
