@@ -9,7 +9,7 @@ Is able to update SSID and channel settings that would potentially disconnect no
  1. select nodes to configure, provide login details, and choose new config options
 
 ## Libraries in use
- * requests
+ * requests version 2.4.3
   * used to interact with the HSMM-Pi web interface to update a nodes settings
  * flask
   * provides the REST API backend
